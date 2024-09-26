@@ -1,3 +1,4 @@
+// use the code in functions.php
 // automatically on-hold to complated order
 add_action('woocommerce_thankyou', 'auto_complete_order_on_hold');
 function auto_complete_order_on_hold($order_id) {
